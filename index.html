@@ -552,7 +552,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
       </button>
     </div>
     <div class="cfg-row">
-      <div class="cfg-lbl">GitHub Personal Access Token</div>
+      <div class="cfg-lbl">Access Token</div>
       <input type="password" class="cfg-in" id="cToken" placeholder="토큰을 입력하세요.">
       <div class="cfg-hint">Expires on 2026년 10월 31일</div>
     </div>
@@ -564,7 +564,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <input type="hidden" id="cKakao"><input type="hidden" id="cOwner"><input type="hidden" id="cRepo"><input type="hidden" id="cBranch">
     <button class="cfg-save" onclick="Cfg.save()">저장 및 적용</button>
     <div class="cfg-info">
-      <b>📁 GitHub 레포 구조 (자동 생성)</b><br>
+      <b>📁 레포 구조 (자동 생성)</b><br>
       data/facilities.json &emsp;— 시설 목록<br>
       data/inspections.json — 전체 점검결과<br>
       photos/{id}_원거리_{점검자}_{날짜_시간}.jpg<br>
@@ -624,7 +624,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <button class="dl-btn" onclick="Ex.github()" disabled>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
-      </svg>GitHub에서 사진 보기
+      </svg>서버에서 사진 보기
     </button>
   </div>
 </div>
@@ -1492,7 +1492,7 @@ async function checkVersion() {
       banner.innerHTML = `
         <div style="flex:1;">
           <div>🔔 새 버전(${latest})이 있습니다 — 캐시 삭제 후, 재접속해 주세요.</div>
-          <div style="font-size:11px;font-weight:400;margin-top:3px;opacity:.9;">※ Token 및 조사자 이름을 다시 입력하세요.</div>
+          <div style="font-size:11px;font-weight:400;margin-top:3px;opacity:.9;">※ Token 및 점검자 이름을 다시 입력하세요.</div>
         </div>
         <button onclick="this.parentElement.remove()" style="
           background:rgba(255,255,255,.25);border:none;color:#fff;
