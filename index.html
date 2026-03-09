@@ -935,7 +935,7 @@ const MC = {
     App.cur=fac; const insp=App.insp[fac.id]; const done=!!(insp?.checkStatus);
     const tag=g('bsTag'); tag.textContent=fac.type||'국가기준점';
     tag.className='bs-tag t-'+(fac.type||'')+(done?' done':'');
-    g('bsAddr').textContent=`[${fac.region}] ${fac.id}`;
+    g('bsAddr').textContent=fac.id;
     const ie=g('bsInst'); ie.textContent=fac.installStatus||'정상';
     ie.className='ms '+(fac.installStatus==='정상'?'ok':'bad');
     const ce=g('bsChk');
@@ -960,7 +960,7 @@ const MC = {
   },
   navTo() {
     if (!App.cur) return;
-    const {id,lat,lng}=App.cur, n=encodeURIComponent(`[${App.cur.region}] ${id}`);
+    const {id,lat,lng}=App.cur, n=encodeURIComponent(id);
     const ios=/iP(hone|od|ad)/.test(navigator.userAgent);
     window.open(ios?`kakaomap://route?ep=${lat},${lng}&by=CAR&en=${n}`:`https://map.kakao.com/link/to/${n},${lat},${lng}`,'_blank');
   },
@@ -1192,7 +1192,7 @@ const FM = {
     g('fStat').value=insp.checkStatus||'';
     g('fRes').value=insp.checkResult||'';
     this.siLoad(insp.surveyItems||null);
-    g('dTitle').textContent=`[${fac.region}] ${fac.id}`;
+    g('dTitle').textContent=fac.id;
     g('dScroll').scrollTop=0;
   },
   async save() {
@@ -1213,7 +1213,7 @@ const FM = {
       const dateStr=now.getFullYear()+String(now.getMonth()+1).padStart(2,'0')+String(now.getDate()).padStart(2,'0')
         +'_'+String(now.getHours()).padStart(2,'0')+String(now.getMinutes()).padStart(2,'0')+String(now.getSeconds()).padStart(2,'0');
       const inspector=g('fInsp').value.trim();
-      const insp={...(App.insp[fac.id]||{}),id:fac.id,address:`[${fac.region}] ${fac.id}`,
+      const insp={...(App.insp[fac.id]||{}),id:fac.id,address:fac.id,
         checkDate:ds, inspector,
         checkStatus:stat, checkResult:g('fRes').value.trim(),
         surveyItems:{...this.si},
@@ -1332,7 +1332,7 @@ const Srch = {
         onmouseout="this.style.background=''">
         <div style="width:10px;height:10px;border-radius:50%;background:${col};flex-shrink:0;"></div>
         <div style="flex:1;min-width:0;">
-          <div style="font-size:13px;font-weight:700;color:var(--gray-900);">[${f.region}] ${f.id}</div>
+          <div style="font-size:13px;font-weight:700;color:var(--gray-900);">${f.id}</div>
           <div style="font-size:11px;color:var(--gray-400);">${f.type}</div>
         </div>
         <div style="font-size:11px;font-weight:700;color:${done?'#16a34a':'var(--gray-400)'};">
