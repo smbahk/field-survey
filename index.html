@@ -1314,7 +1314,7 @@ const Srch = {
     const box = g('searchResults');
     if (!q) { box.innerHTML=''; return; }
     const matches = App.facs.filter(f =>
-      f.id.toLowerCase().includes(q) || f.region.toLowerCase().includes(q)
+      f.id.toLowerCase().includes(q)
     ).slice(0, 20);
     if (matches.length === 0) {
       box.innerHTML='<div style="padding:16px;text-align:center;color:var(--gray-400);font-size:13px;">검색 결과가 없습니다.</div>';
