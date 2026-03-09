@@ -638,7 +638,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
    ============================================================ */
 const Cfg = {
   K: 'fsurvey_cfg',
-  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'mobile-survey-app', branch:'main', inspector:'' },
+  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'field-survey', branch:'main', inspector:'' },
   get() { try { return {...this.def,...JSON.parse(localStorage.getItem(this.K)||'{}')}; } catch { return {...this.def}; } },
   validToken(token) {
     return /^ghp_[A-Za-z0-9]{36}$/.test(token) ||
@@ -885,7 +885,7 @@ let kakaoMap, mkrs={}, overlayType=null, myMk=null;
 const MC = {
   init() {
     kakaoMap = new kakao.maps.Map(g('kakaoMap'),{
-      center: new kakao.maps.LatLng(36.35, 128.98), level:10
+      center: new kakao.maps.LatLng(36.436232, 129.057067), level:10
     });
     kakaoMap.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
     kakao.maps.event.addListener(kakaoMap,'click',()=>UI.closeSh());
