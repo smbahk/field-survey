@@ -287,16 +287,6 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <div id="kakaoMap"></div>
 
     <div class="stats-bar">
-      <!-- div class="stat-row">
-        <span class="stat-region">김천</span>
-        <div class="stat-item"><div class="stat-dot" style="background:var(--cs)"></div><span id="sKS">0</span></div>
-        <div class="stat-divider"></div>
-        <div class="stat-item"><div class="stat-dot" style="background:var(--ct)"></div><span id="sKT">0</span></div>
-        <div class="stat-divider"></div>
-        <div class="stat-item"><div class="stat-dot" style="background:var(--cu)"></div><span id="sKU">0</span></div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">✓ <span id="sKDone">0</span>/<span id="sKTot">0</span></div>
-      </div -->
       <div class="stat-row">
         <span class="stat-region">청송</span>
         <div class="stat-item"><div class="stat-dot" style="background:var(--cs)"></div><span id="sCS">0</span></div>
@@ -562,7 +552,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
       </button>
     </div>
     <div class="cfg-row">
-      <div class="cfg-lbl">Access Token</div>
+      <div class="cfg-lbl">GitHub Personal Access Token</div>
       <input type="password" class="cfg-in" id="cToken" placeholder="토큰을 입력하세요.">
       <div class="cfg-hint">Expires on 2026년 10월 31일</div>
     </div>
@@ -574,7 +564,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <input type="hidden" id="cKakao"><input type="hidden" id="cOwner"><input type="hidden" id="cRepo"><input type="hidden" id="cBranch">
     <button class="cfg-save" onclick="Cfg.save()">저장 및 적용</button>
     <div class="cfg-info">
-      <b>📁 레포 구조 (자동 생성)</b><br>
+      <b>📁 GitHub 레포 구조 (자동 생성)</b><br>
       data/facilities.json &emsp;— 시설 목록<br>
       data/inspections.json — 전체 점검결과<br>
       photos/{id}_원거리_{점검자}_{날짜_시간}.jpg<br>
@@ -597,7 +587,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
       </button>
     </div>
     <div style="display:flex;gap:8px;padding:0 16px 12px;">
-      <input id="searchInput" class="cfg-in" placeholder="점의번호 입력 (예: U청송12, 청송301)"
+      <input id="searchInput" class="cfg-in" placeholder="점의번호 입력 (예: U0594, 청송301)"
         style="flex:1;margin:0;" oninput="Srch.suggest()" onkeydown="if(event.key==='Enter')Srch.go()">
       <button onclick="Srch.go()" style="padding:0 18px;height:42px;background:var(--primary);color:#fff;
         border:none;border-radius:var(--r-sm);font-size:14px;font-weight:700;cursor:pointer;
@@ -634,7 +624,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
     <button class="dl-btn" onclick="Ex.github()" disabled>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
-      </svg>서버에서 사진 보기
+      </svg>GitHub에서 사진 보기
     </button>
   </div>
 </div>
@@ -648,7 +638,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
    ============================================================ */
 const Cfg = {
   K: 'fsurvey_cfg',
-  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'field-survey', branch:'main', inspector:'' },
+  def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'mobile-survey-app', branch:'main', inspector:'' },
   get() { try { return {...this.def,...JSON.parse(localStorage.getItem(this.K)||'{}')}; } catch { return {...this.def}; } },
   validToken(token) {
     return /^ghp_[A-Za-z0-9]{36}$/.test(token) ||
@@ -884,6 +874,7 @@ const Queue = {
 const DEMO = [
   {id:'04-02-05-03',type:'수준점',region:'청송',lat:36.2245833333,lng:128.8996666667,installStatus:'정상'},
   {id:'청송301',type:'삼각점',region:'청송',lat:36.2191709167,lng:128.9851905278,installStatus:'정상'},
+  {id:'U0594',type:'통합기준점',region:'청송',lat:36.2761951139,lng:128.8952689444,installStatus:'정상'},
   {id:'U0595',type:'통합기준점',region:'청송',lat:36.4296885389,lng:129.0576553167,installStatus:'정상'}
 ];
 
@@ -894,7 +885,7 @@ let kakaoMap, mkrs={}, overlayType=null, myMk=null;
 const MC = {
   init() {
     kakaoMap = new kakao.maps.Map(g('kakaoMap'),{
-      center: new kakao.maps.LatLng(36.10, 128.15), level:10
+      center: new kakao.maps.LatLng(36.35, 128.98), level:10
     });
     kakaoMap.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
     kakao.maps.event.addListener(kakaoMap,'click',()=>UI.closeSh());
@@ -1380,7 +1371,7 @@ const Ex = {
   },
   _checkAuth() {
     const inspector = Cfg.get().inspector.trim();
-    const ADMIN = '박서연';
+    const ADMIN = '박성문';
     if (inspector !== ADMIN) {
       UI.toast('관리자만 다운로드 가능합니다.');
       return false;
@@ -1411,7 +1402,7 @@ const Ex = {
   github() {
     const c=Cfg.get();
     if (c.owner&&c.repo) window.open(`https://github.com/${c.owner}/${c.repo}/tree/${c.branch}/photos`,'_blank');
-    else UI.toast('설정을 먼저 완료해 주세요.');
+    else UI.toast('GitHub 설정을 먼저 완료해 주세요.');
     UI.closeMod('modDL');
   }
 };
