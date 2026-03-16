@@ -1393,7 +1393,8 @@ const Ex = {
   csv() {
     if (!this._checkAuth()) return;
     const fname = url => url ? url.split('/').pop() : '';
-    const hdr=['점의번호','구분','지역','설치상태','점검일자','점검자','점검상태','표석','보호석','보호콘크리트','점검결과','원거리사진','근거리사진','GPS위도','GPS경도','GPS정확도(m)','기준점거리(m)','GPS취득시각'];
+    const hdr=['점의번호','구분','지역','설치상태','점검일자','점검자','점검상태','표석','보호석','보호콘크리트','점검결과','원거리사진','근거리사진','GPS위도','GPS경도','GPS정확도(m)','기준점거리(m)','GPS취득시각(UTC)','GPS취득시각(KST)'];
+    const toKST = iso => { if (!iso) return ''; const d = new Date(new Date(iso).getTime() + 9*3600*1000); return d.toISOString().replace('T',' ').substring(0,19); };
     const rows=[hdr,...Object.values(App.insp).map(i=>{
       const f=App.facs.find(x=>x.id===i.id)||{};
       const si=i.surveyItems||{};
@@ -1402,7 +1403,7 @@ const Ex = {
         si.표석||'',si.보호석||'',si.보호콘크리트||'',
         (i.checkResult||'').replace(/\n/g,' '),
         fname(i.farPhotoUrl), fname(i.closePhotoUrl),
-        i.gpsLat??'', i.gpsLng??'', i.gpsAccuracy??'', i.distFromPoint??'', i.gpsAt||''];
+        i.gpsLat??'', i.gpsLng??'', i.gpsAccuracy??'', i.distFromPoint??'', i.gpsAt||'', toKST(i.gpsAt)];
     })];
     this._dl('inspections.csv','\uFEFF'+rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n'),'text/csv;charset=utf-8');
     UI.closeMod('modDL');
