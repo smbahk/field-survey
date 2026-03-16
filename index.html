@@ -1206,6 +1206,8 @@ const FM = {
       if (!this.si['보호콘크리트']) { UI.toast('조사내용 — 보호콘크리트를 선택해 주세요.'); return; }
     }
     const btn=g('btnSv'); btn.disabled=true;
+    Ld.show('GPS 위치 확인 중...');
+    const gps = await getGPS();
     Ld.show('저장 중...');
     try {
       const now=new Date();
@@ -1217,6 +1219,11 @@ const FM = {
         checkDate:ds, inspector,
         checkStatus:stat, checkResult:g('fRes').value.trim(),
         surveyItems:{...this.si},
+        gpsLat: gps ? gps.lat : null,
+        gpsLng: gps ? gps.lng : null,
+        gpsAccuracy: gps ? gps.accuracy : null,
+        distFromPoint: gps ? calcDist(gps.lat, gps.lng, fac.lat, fac.lng) : null,
+        gpsAt: gps ? now.toISOString() : null,
         updatedAt:now.toISOString()};
 
       // 1단계: 사진을 IDB(로컬)에 먼저 저장
@@ -1386,7 +1393,7 @@ const Ex = {
   csv() {
     if (!this._checkAuth()) return;
     const fname = url => url ? url.split('/').pop() : '';
-    const hdr=['점의번호','구분','지역','설치상태','점검일자','점검자','점검상태','표석','보호석','보호콘크리트','점검결과','원거리사진','근거리사진'];
+    const hdr=['점의번호','구분','지역','설치상태','점검일자','점검자','점검상태','표석','보호석','보호콘크리트','점검결과','원거리사진','근거리사진','GPS위도','GPS경도','GPS정확도(m)','기준점거리(m)','GPS취득시각'];
     const rows=[hdr,...Object.values(App.insp).map(i=>{
       const f=App.facs.find(x=>x.id===i.id)||{};
       const si=i.surveyItems||{};
@@ -1394,7 +1401,8 @@ const Ex = {
         i.checkDate||'',i.inspector||'',i.checkStatus||'',
         si.표석||'',si.보호석||'',si.보호콘크리트||'',
         (i.checkResult||'').replace(/\n/g,' '),
-        fname(i.farPhotoUrl), fname(i.closePhotoUrl)];
+        fname(i.farPhotoUrl), fname(i.closePhotoUrl),
+        i.gpsLat??'', i.gpsLng??'', i.gpsAccuracy??'', i.distFromPoint??'', i.gpsAt||''];
     })];
     this._dl('inspections.csv','\uFEFF'+rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n'),'text/csv;charset=utf-8');
     UI.closeMod('modDL');
@@ -1452,6 +1460,30 @@ function setMapH() {
   if (mc&&tn) mc.style.height=(window.innerHeight-tn.offsetHeight)+'px';
 }
 window.addEventListener('resize',setMapH);
+
+/* ============================================================
+   GPS UTILS
+   ============================================================ */
+function getGPS(timeout=8000) {
+  return new Promise(res => {
+    if (!navigator.geolocation) { res(null); return; }
+    let done = false;
+    const finish = v => { if (!done) { done=true; res(v); } };
+    navigator.geolocation.getCurrentPosition(
+      pos => finish({lat:pos.coords.latitude, lng:pos.coords.longitude, accuracy:Math.round(pos.coords.accuracy)}),
+      ()  => finish(null),
+      {enableHighAccuracy:true, timeout, maximumAge:0}
+    );
+    setTimeout(() => finish(null), timeout + 500);
+  });
+}
+function calcDist(lat1, lng1, lat2, lng2) {
+  const R = 6371000;
+  const dLat = (lat2-lat1) * Math.PI/180;
+  const dLng = (lng2-lng1) * Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLng/2)**2;
+  return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)));
+}
 
 /* ============================================================
    BOOT: dynamic Kakao SDK load
