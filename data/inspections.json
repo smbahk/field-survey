@@ -1,0 +1,25 @@
+{
+  "화북416": {
+    "id": "화북416",
+    "address": "화북416",
+    "checkDate": "2026-3-21",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "금이가고 떨어나간 부분이 있음",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.196372,
+    "gpsLng": 128.9017011,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1,
+    "gpsAt": "2026-03-20T23:00:22.865Z",
+    "updatedAt": "2026-03-20T23:00:22.865Z",
+    "farPhotoLocal": "416_far_x_20260321_080022.jpg",
+    "closePhotoLocal": "416_close_x_20260321_080022.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/416_far_x_20260321_080022.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/416_close_x_20260321_080022.jpg"
+  }
+}
