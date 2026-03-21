@@ -67,5 +67,28 @@
     "closePhotoLocal": "U27_close_x_20260321_095510.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U27_far_x_20260321_095510.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U27_close_x_20260321_095510.jpg"
+  },
+  "화북304": {
+    "id": "화북304",
+    "address": "화북304",
+    "checkDate": "2026-3-21",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "표석 상단 일부 파손",
+    "surveyItems": {
+      "표석": "파손",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.2034024,
+    "gpsLng": 128.9299781,
+    "gpsAccuracy": 4,
+    "distFromPoint": 5,
+    "gpsAt": "2026-03-21T02:20:43.750Z",
+    "updatedAt": "2026-03-21T02:20:43.750Z",
+    "farPhotoLocal": "304_far_x_20260321_112043.jpg",
+    "closePhotoLocal": "304_close_x_20260321_112043.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/304_far_x_20260321_112043.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/304_close_x_20260321_112043.jpg"
   }
 }
