@@ -205,5 +205,28 @@
     "closePhotoLocal": "424_close_x_20260322_110216.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/424_far_x_20260322_110216.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/424_close_x_20260322_110216.jpg"
+  },
+  "화북425": {
+    "id": "화북425",
+    "address": "화북425",
+    "checkDate": "2026-3-22",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호콘크리트 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.2153553,
+    "gpsLng": 128.9924718,
+    "gpsAccuracy": 5,
+    "distFromPoint": 5,
+    "gpsAt": "2026-03-22T06:01:11.402Z",
+    "updatedAt": "2026-03-22T06:01:11.402Z",
+    "farPhotoLocal": "425_far_x_20260322_150111.jpg",
+    "closePhotoLocal": "425_close_x_20260322_150111.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/425_far_x_20260322_150111.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/425_close_x_20260322_150111.jpg"
   }
 }
