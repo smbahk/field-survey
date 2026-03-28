@@ -343,5 +343,28 @@
     "closePhotoLocal": "316_close_x_20260328_101601.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/316_far_x_20260328_101601.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/316_close_x_20260328_101601.jpg"
+  },
+  "04-02-08-04": {
+    "id": "04-02-08-04",
+    "address": "04-02-08-04",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "주변 복토공사로인해 보호콘크리트가 뭍힘",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2891053,
+    "gpsLng": 128.9595624,
+    "gpsAccuracy": 13,
+    "distFromPoint": 4,
+    "gpsAt": "2026-03-28T02:20:24.473Z",
+    "updatedAt": "2026-03-28T02:20:24.473Z",
+    "farPhotoLocal": "04-02-08-04_far_x_20260328_112024.jpg",
+    "closePhotoLocal": "04-02-08-04_close_x_20260328_112024.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-04_far_x_20260328_112024.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-04_close_x_20260328_112024.jpg"
   }
 }
