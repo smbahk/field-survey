@@ -412,5 +412,28 @@
     "closePhotoLocal": "473_close_x_20260328_131931.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/473_far_x_20260328_131931.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/473_close_x_20260328_131931.jpg"
+  },
+  "04-02-08-03": {
+    "id": "04-02-08-03",
+    "address": "04-02-08-03",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "보호석 1개 없음\n콘크리트가 아스팔트에 부분 매몰됨",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "파손",
+      "보호콘크리트": "불량"
+    },
+    "gpsLat": 36.2894544,
+    "gpsLng": 128.9401725,
+    "gpsAccuracy": 6,
+    "distFromPoint": 7,
+    "gpsAt": "2026-03-28T05:04:44.397Z",
+    "updatedAt": "2026-03-28T05:04:44.397Z",
+    "farPhotoLocal": "04-02-08-03_far_x_20260328_140444.jpg",
+    "closePhotoLocal": "04-02-08-03_close_x_20260328_140444.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-03_far_x_20260328_140444.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-03_close_x_20260328_140444.jpg"
   }
 }
