@@ -366,5 +366,28 @@
     "closePhotoLocal": "04-02-08-04_close_x_20260328_112024.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-04_far_x_20260328_112024.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-04_close_x_20260328_112024.jpg"
+  },
+  "U길안88": {
+    "id": "U길안88",
+    "address": "U길안88",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2902015,
+    "gpsLng": 128.9464352,
+    "gpsAccuracy": 9,
+    "distFromPoint": 2,
+    "gpsAt": "2026-03-28T02:41:43.392Z",
+    "updatedAt": "2026-03-28T02:41:43.392Z",
+    "farPhotoLocal": "U88_far_x_20260328_114143.jpg",
+    "closePhotoLocal": "U88_close_x_20260328_114143.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U88_far_x_20260328_114143.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U88_close_x_20260328_114143.jpg"
   }
 }
