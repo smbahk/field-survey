@@ -458,5 +458,28 @@
     "closePhotoLocal": "472_close_x_20260328_143150.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/472_far_x_20260328_143150.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/472_close_x_20260328_143150.jpg"
+  },
+  "04-02-08-02": {
+    "id": "04-02-08-02",
+    "address": "04-02-08-02",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "공원조성으로 부분 매몰",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "불량"
+    },
+    "gpsLat": 36.2889506,
+    "gpsLng": 128.9207035,
+    "gpsAccuracy": 8,
+    "distFromPoint": 2,
+    "gpsAt": "2026-03-28T06:10:00.887Z",
+    "updatedAt": "2026-03-28T06:10:00.887Z",
+    "farPhotoLocal": "04-02-08-02_far_x_20260328_151000.jpg",
+    "closePhotoLocal": "04-02-08-02_close_x_20260328_151000.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-02_far_x_20260328_151000.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-02_close_x_20260328_151000.jpg"
   }
 }
