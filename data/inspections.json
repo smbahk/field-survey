@@ -481,5 +481,28 @@
     "closePhotoLocal": "04-02-08-02_close_x_20260328_151000.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-02_far_x_20260328_151000.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-08-02_close_x_20260328_151000.jpg"
+  },
+  "길안470": {
+    "id": "길안470",
+    "address": "길안470",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2754675,
+    "gpsLng": 128.9175356,
+    "gpsAccuracy": 6,
+    "distFromPoint": 5,
+    "gpsAt": "2026-03-28T07:06:43.356Z",
+    "updatedAt": "2026-03-28T07:06:43.356Z",
+    "farPhotoLocal": "470_far_x_20260328_160643.jpg",
+    "closePhotoLocal": "470_close_x_20260328_160643.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/470_far_x_20260328_160643.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/470_close_x_20260328_160643.jpg"
   }
 }
