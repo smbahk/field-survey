@@ -320,5 +320,28 @@
     "closePhotoLocal": "475_close_x_20260328_092351.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/475_far_x_20260328_092351.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/475_close_x_20260328_092351.jpg"
+  },
+  "길안316": {
+    "id": "길안316",
+    "address": "길안316",
+    "checkDate": "2026-3-28",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.290291,
+    "gpsLng": 128.9778552,
+    "gpsAccuracy": 6,
+    "distFromPoint": 3,
+    "gpsAt": "2026-03-28T01:16:01.932Z",
+    "updatedAt": "2026-03-28T01:16:01.932Z",
+    "farPhotoLocal": "316_far_x_20260328_101601.jpg",
+    "closePhotoLocal": "316_close_x_20260328_101601.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/316_far_x_20260328_101601.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/316_close_x_20260328_101601.jpg"
   }
 }
