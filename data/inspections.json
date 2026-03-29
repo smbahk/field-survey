@@ -665,5 +665,28 @@
     "closePhotoLocal": "466_close_x_20260329_142211.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_far_x_20260329_142211.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_close_x_20260329_142211.jpg"
+  },
+  "04-02-07-01": {
+    "id": "04-02-07-01",
+    "address": "04-02-07-01",
+    "checkDate": "2026-3-29",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "보호석 하나 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "불량",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2731927,
+    "gpsLng": 128.8750079,
+    "gpsAccuracy": 6,
+    "distFromPoint": 4,
+    "gpsAt": "2026-03-29T06:01:32.035Z",
+    "updatedAt": "2026-03-29T06:01:32.035Z",
+    "farPhotoLocal": "04-02-07-01_far_x_20260329_150132.jpg",
+    "closePhotoLocal": "04-02-07-01_close_x_20260329_150132.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-07-01_far_x_20260329_150132.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-02-07-01_close_x_20260329_150132.jpg"
   }
 }
