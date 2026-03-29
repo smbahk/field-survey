@@ -573,5 +573,28 @@
     "closePhotoLocal": "305_close_x_20260329_091841.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_far_x_20260329_091841.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_close_x_20260329_091841.jpg"
+  },
+  "화북417": {
+    "id": "화북417",
+    "address": "화북417",
+    "checkDate": "2026-3-29",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2502765,
+    "gpsLng": 128.9069737,
+    "gpsAccuracy": 6,
+    "distFromPoint": 2,
+    "gpsAt": "2026-03-29T01:31:57.256Z",
+    "updatedAt": "2026-03-29T01:31:57.256Z",
+    "farPhotoLocal": "417_far_x_20260329_103157.jpg",
+    "closePhotoLocal": "417_close_x_20260329_103157.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/417_far_x_20260329_103157.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/417_close_x_20260329_103157.jpg"
   }
 }
