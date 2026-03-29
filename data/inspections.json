@@ -642,5 +642,28 @@
     "closePhotoLocal": "468_close_x_20260329_131504.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/468_far_x_20260329_131504.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/468_close_x_20260329_131504.jpg"
+  },
+  "길안466": {
+    "id": "길안466",
+    "address": "길안466",
+    "checkDate": "2026-3-29",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "표지석이 콘크리트로 됨 부분 파손\n보호콘크리트(석제) 일부 유실",
+    "surveyItems": {
+      "표석": "파손",
+      "보호석": "없음",
+      "보호콘크리트": "불량"
+    },
+    "gpsLat": 36.2597227,
+    "gpsLng": 128.8822473,
+    "gpsAccuracy": 7,
+    "distFromPoint": 8,
+    "gpsAt": "2026-03-29T05:22:11.404Z",
+    "updatedAt": "2026-03-29T05:22:11.404Z",
+    "farPhotoLocal": "466_far_x_20260329_142211.jpg",
+    "closePhotoLocal": "466_close_x_20260329_142211.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_far_x_20260329_142211.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_close_x_20260329_142211.jpg"
   }
 }
