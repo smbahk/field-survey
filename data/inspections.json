@@ -987,5 +987,28 @@
     "closePhotoLocal": "04-03-06-01_close_x_20260403_172553.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-06-01_far_x_20260403_172553.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-06-01_close_x_20260403_172553.jpg"
+  },
+  "기계407": {
+    "id": "기계407",
+    "address": "기계407",
+    "checkDate": "2026-4-5",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.223512,
+    "gpsLng": 129.0581668,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-04T22:41:44.988Z",
+    "updatedAt": "2026-04-04T22:41:44.988Z",
+    "farPhotoLocal": "407_far_x_20260405_074144.jpg",
+    "closePhotoLocal": "407_close_x_20260405_074144.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/407_far_x_20260405_074144.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/407_close_x_20260405_074144.jpg"
   }
 }
