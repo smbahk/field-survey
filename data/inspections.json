@@ -1056,5 +1056,28 @@
     "closePhotoLocal": "04-03-06-04_close_x_20260405_085540.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-06-04_far_x_20260405_085540.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-06-04_close_x_20260405_085540.jpg"
+  },
+  "기계404": {
+    "id": "기계404",
+    "address": "기계404",
+    "checkDate": "2026-4-5",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "표석 모퉁이 부분파손 및 보호콘크리트 파손",
+    "surveyItems": {
+      "표석": "파손",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.2396658,
+    "gpsLng": 129.0381911,
+    "gpsAccuracy": 5,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-05T00:52:33.095Z",
+    "updatedAt": "2026-04-05T00:52:33.095Z",
+    "farPhotoLocal": "404_far_x_20260405_095233.jpg",
+    "closePhotoLocal": "404_close_x_20260405_095233.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/404_far_x_20260405_095233.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/404_close_x_20260405_095233.jpg"
   }
 }
