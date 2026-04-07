@@ -1194,5 +1194,28 @@
     "closePhotoLocal": "449_close_x_20260405_174003.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/449_far_x_20260405_174003.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/449_close_x_20260405_174003.jpg"
+  },
+  "U길안80": {
+    "id": "U길안80",
+    "address": "U길안80",
+    "checkDate": "2026-4-8",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "표지 폿말 파손됨",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.3083491,
+    "gpsLng": 128.984137,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-07T22:20:37.553Z",
+    "updatedAt": "2026-04-07T22:20:37.553Z",
+    "farPhotoLocal": "U80_far_x_20260408_072037.jpg",
+    "closePhotoLocal": "U80_close_x_20260408_072037.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U80_far_x_20260408_072037.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U80_close_x_20260408_072037.jpg"
   }
 }
