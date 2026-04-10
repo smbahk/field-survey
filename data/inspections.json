@@ -1424,5 +1424,28 @@
     "closePhotoLocal": "U0599_close_x_20260411_072516.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0599_far_x_20260411_072516.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0599_close_x_20260411_072516.jpg"
+  },
+  "청송455": {
+    "id": "청송455",
+    "address": "청송455",
+    "checkDate": "2026-4-11",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호콘크리트 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.2883987,
+    "gpsLng": 129.0740484,
+    "gpsAccuracy": 4,
+    "distFromPoint": 1,
+    "gpsAt": "2026-04-10T23:28:38.291Z",
+    "updatedAt": "2026-04-10T23:28:38.291Z",
+    "farPhotoLocal": "455_far_x_20260411_082838.jpg",
+    "closePhotoLocal": "455_close_x_20260411_082838.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/455_far_x_20260411_082838.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/455_close_x_20260411_082838.jpg"
   }
 }
