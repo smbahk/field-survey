@@ -1723,5 +1723,28 @@
     "closePhotoLocal": "467_close_x_20260412_113831.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/467_far_x_20260412_113831.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/467_close_x_20260412_113831.jpg"
+  },
+  "영덕433": {
+    "id": "영덕433",
+    "address": "영덕433",
+    "checkDate": "2026-4-12",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.3361683,
+    "gpsLng": 129.2538534,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-12T06:14:43.035Z",
+    "updatedAt": "2026-04-12T06:14:43.035Z",
+    "farPhotoLocal": "433_far_x_20260412_151443.jpg",
+    "closePhotoLocal": "433_close_x_20260412_151443.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/433_far_x_20260412_151443.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/433_close_x_20260412_151443.jpg"
   }
 }
