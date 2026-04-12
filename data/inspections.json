@@ -1677,5 +1677,28 @@
     "closePhotoLocal": "464_close_x_20260412_081519.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/464_far_x_20260412_081519.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/464_close_x_20260412_081519.jpg"
+  },
+  "청송25": {
+    "id": "청송25",
+    "address": "청송25",
+    "checkDate": "2026-4-12",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.3411116,
+    "gpsLng": 129.171969,
+    "gpsAccuracy": 5,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-12T00:42:45.373Z",
+    "updatedAt": "2026-04-12T00:42:45.373Z",
+    "farPhotoLocal": "25_far_x_20260412_094245.jpg",
+    "closePhotoLocal": "25_close_x_20260412_094245.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/25_far_x_20260412_094245.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/25_close_x_20260412_094245.jpg"
   }
 }
