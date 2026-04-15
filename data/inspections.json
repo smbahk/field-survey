@@ -1884,5 +1884,28 @@
     "closePhotoLocal": "312_close_x_20260415_153351.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/312_far_x_20260415_153351.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/312_close_x_20260415_153351.jpg"
+  },
+  "04-04-10-07": {
+    "id": "04-04-10-07",
+    "address": "04-04-10-07",
+    "checkDate": "2026-4-15",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "표고버섯 재배용 목재가 있음 이동 불가",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2726844,
+    "gpsLng": 129.1431723,
+    "gpsAccuracy": 4,
+    "distFromPoint": 11,
+    "gpsAt": "2026-04-15T07:08:54.567Z",
+    "updatedAt": "2026-04-15T07:08:54.567Z",
+    "farPhotoLocal": "04-04-10-07_far_x_20260415_160854.jpg",
+    "closePhotoLocal": "04-04-10-07_close_x_20260415_160854.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-10-07_far_x_20260415_160854.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-10-07_close_x_20260415_160854.jpg"
   }
 }
