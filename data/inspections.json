@@ -1792,5 +1792,28 @@
     "closePhotoLocal": "466_close_x_20260415_080403.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_far_x_20260415_080403.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/466_close_x_20260415_080403.jpg"
+  },
+  "기계305": {
+    "id": "기계305",
+    "address": "기계305",
+    "checkDate": "2026-4-15",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2496372,
+    "gpsLng": 129.1960037,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-15T00:45:02.648Z",
+    "updatedAt": "2026-04-15T00:45:02.648Z",
+    "farPhotoLocal": "305_far_x_20260415_094502.jpg",
+    "closePhotoLocal": "305_close_x_20260415_094502.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_far_x_20260415_094502.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_close_x_20260415_094502.jpg"
   }
 }
