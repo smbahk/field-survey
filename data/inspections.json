@@ -1907,5 +1907,28 @@
     "closePhotoLocal": "04-04-10-07_close_x_20260415_160854.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-10-07_far_x_20260415_160854.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-10-07_close_x_20260415_160854.jpg"
+  },
+  "청송462": {
+    "id": "청송462",
+    "address": "청송462",
+    "checkDate": "2026-4-15",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2620745,
+    "gpsLng": 129.135663,
+    "gpsAccuracy": 4,
+    "distFromPoint": 4,
+    "gpsAt": "2026-04-15T08:00:13.589Z",
+    "updatedAt": "2026-04-15T08:00:13.589Z",
+    "farPhotoLocal": "462_far_x_20260415_170013.jpg",
+    "closePhotoLocal": "462_close_x_20260415_170013.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/462_far_x_20260415_170013.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/462_close_x_20260415_170013.jpg"
   }
 }
