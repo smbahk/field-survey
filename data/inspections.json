@@ -1953,5 +1953,28 @@
     "closePhotoLocal": "04-03-09-01_close_x_20260418_071228.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-09-01_far_x_20260418_071228.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-03-09-01_close_x_20260418_071228.jpg"
+  },
+  "U청송73": {
+    "id": "U청송73",
+    "address": "U청송73",
+    "checkDate": "2026-4-18",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.3076544,
+    "gpsLng": 129.0515806,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-17T22:41:29.703Z",
+    "updatedAt": "2026-04-17T22:41:29.703Z",
+    "farPhotoLocal": "U73_far_x_20260418_074129.jpg",
+    "closePhotoLocal": "U73_close_x_20260418_074129.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U73_far_x_20260418_074129.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U73_close_x_20260418_074129.jpg"
   }
 }
