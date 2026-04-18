@@ -2045,5 +2045,28 @@
     "closePhotoLocal": "11_close_x_20260418_102251.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/11_far_x_20260418_102251.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/11_close_x_20260418_102251.jpg"
+  },
+  "청송446": {
+    "id": "청송446",
+    "address": "청송446",
+    "checkDate": "2026-4-18",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호콘크리트 없음",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.4009167,
+    "gpsLng": 129.029813,
+    "gpsAccuracy": 47,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-18T02:46:56.961Z",
+    "updatedAt": "2026-04-18T02:46:56.961Z",
+    "farPhotoLocal": "446_far_x_20260418_114656.jpg",
+    "closePhotoLocal": "446_close_x_20260418_114656.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/446_far_x_20260418_114656.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/446_close_x_20260418_114656.jpg"
   }
 }
