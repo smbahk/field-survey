@@ -2137,5 +2137,28 @@
     "closePhotoLocal": "405_close_x_20260418_153515.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/405_far_x_20260418_153515.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/405_close_x_20260418_153515.jpg"
+  },
+  "청송409": {
+    "id": "청송409",
+    "address": "청송409",
+    "checkDate": "2026-4-18",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "지반 침하로 동쪽 방향으로 기울어짐",
+    "surveyItems": {
+      "표석": "불량",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4459356,
+    "gpsLng": 129.0625251,
+    "gpsAccuracy": 6,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-18T08:39:51.744Z",
+    "updatedAt": "2026-04-18T08:39:51.744Z",
+    "farPhotoLocal": "409_far_x_20260418_173951.jpg",
+    "closePhotoLocal": "409_close_x_20260418_173951.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/409_far_x_20260418_173951.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/409_close_x_20260418_173951.jpg"
   }
 }
