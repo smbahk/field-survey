@@ -2298,5 +2298,28 @@
     "closePhotoLocal": "U87_close_x_20260419_171313.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U87_far_x_20260419_171313.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U87_close_x_20260419_171313.jpg"
+  },
+  "U청송75": {
+    "id": "U청송75",
+    "address": "U청송75",
+    "checkDate": "2026-4-19",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호석 1개 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "파손",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.3045334,
+    "gpsLng": 129.1151048,
+    "gpsAccuracy": 68,
+    "distFromPoint": 21,
+    "gpsAt": "2026-04-19T08:38:47.704Z",
+    "updatedAt": "2026-04-19T08:38:47.704Z",
+    "farPhotoLocal": "U75_far_x_20260419_173847.jpg",
+    "closePhotoLocal": "U75_close_x_20260419_173847.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U75_far_x_20260419_173847.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U75_close_x_20260419_173847.jpg"
   }
 }
