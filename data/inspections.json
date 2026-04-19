@@ -2252,5 +2252,28 @@
     "closePhotoLocal": "468_close_x_20260419_141029.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/468_far_x_20260419_141029.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/468_close_x_20260419_141029.jpg"
+  },
+  "청송314": {
+    "id": "청송314",
+    "address": "청송314",
+    "checkDate": "2026-4-19",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호콘크리트 멸실",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.2878337,
+    "gpsLng": 129.2209576,
+    "gpsAccuracy": 7,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-19T07:07:18.180Z",
+    "updatedAt": "2026-04-19T07:07:18.180Z",
+    "farPhotoLocal": "314_far_x_20260419_160718.jpg",
+    "closePhotoLocal": "314_close_x_20260419_160718.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/314_far_x_20260419_160718.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/314_close_x_20260419_160718.jpg"
   }
 }
