@@ -2206,5 +2206,28 @@
     "closePhotoLocal": "313_close_x_20260419_112920.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/313_far_x_20260419_112920.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/313_close_x_20260419_112920.jpg"
+  },
+  "U0598": {
+    "id": "U0598",
+    "address": "U0598",
+    "checkDate": "2026-4-19",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "부분 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.3177201,
+    "gpsLng": 129.2072717,
+    "gpsAccuracy": 15,
+    "distFromPoint": 40,
+    "gpsAt": "2026-04-19T04:11:46.866Z",
+    "updatedAt": "2026-04-19T04:11:46.866Z",
+    "farPhotoLocal": "U0598_far_x_20260419_131146.jpg",
+    "closePhotoLocal": "U0598_close_x_20260419_131146.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0598_far_x_20260419_131146.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0598_close_x_20260419_131146.jpg"
   }
 }
