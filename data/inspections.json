@@ -2321,5 +2321,28 @@
     "closePhotoLocal": "U75_close_x_20260419_173847.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U75_far_x_20260419_173847.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U75_close_x_20260419_173847.jpg"
+  },
+  "청송461": {
+    "id": "청송461",
+    "address": "청송461",
+    "checkDate": "2026-4-19",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.2783057,
+    "gpsLng": 129.1243308,
+    "gpsAccuracy": 9,
+    "distFromPoint": 1,
+    "gpsAt": "2026-04-19T09:15:14.684Z",
+    "updatedAt": "2026-04-19T09:15:14.684Z",
+    "farPhotoLocal": "461_far_x_20260419_181514.jpg",
+    "closePhotoLocal": "461_close_x_20260419_181514.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_far_x_20260419_181514.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_close_x_20260419_181514.jpg"
   }
 }
