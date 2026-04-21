@@ -2367,5 +2367,28 @@
     "closePhotoLocal": "305_close_x_20260422_080039.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_far_x_20260422_080039.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_close_x_20260422_080039.jpg"
+  },
+  "U길안30": {
+    "id": "U길안30",
+    "address": "U길안30",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "안내판 화재로 소실",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4386371,
+    "gpsLng": 128.9795147,
+    "gpsAccuracy": 25,
+    "distFromPoint": 20,
+    "gpsAt": "2026-04-21T23:54:46.234Z",
+    "updatedAt": "2026-04-21T23:54:46.234Z",
+    "farPhotoLocal": "U30_far_x_20260422_085446.jpg",
+    "closePhotoLocal": "U30_close_x_20260422_085446.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U30_far_x_20260422_085446.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U30_close_x_20260422_085446.jpg"
   }
 }
