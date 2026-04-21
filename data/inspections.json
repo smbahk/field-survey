@@ -2344,5 +2344,28 @@
     "closePhotoLocal": "461_close_x_20260419_181514.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_far_x_20260419_181514.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_close_x_20260419_181514.jpg"
+  },
+  "길안305": {
+    "id": "길안305",
+    "address": "길안305",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4223211,
+    "gpsLng": 128.9825994,
+    "gpsAccuracy": 7,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-21T22:56:41.861Z",
+    "updatedAt": "2026-04-21T22:56:41.861Z",
+    "farPhotoLocal": "305_far_x_20260422_075641.jpg",
+    "closePhotoLocal": "305_close_x_20260422_075641.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_far_x_20260422_075641.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/305_close_x_20260422_075641.jpg"
   }
 }
