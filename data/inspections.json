@@ -2482,5 +2482,28 @@
     "closePhotoLocal": "04-05-13-01_close_x_20260422_131547.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-13-01_far_x_20260422_131547.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-13-01_close_x_20260422_131547.jpg"
+  },
+  "청송406": {
+    "id": "청송406",
+    "address": "청송406",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "화제로 표석 부분 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4409764,
+    "gpsLng": 129.0393629,
+    "gpsAccuracy": 6,
+    "distFromPoint": 2,
+    "gpsAt": "2026-04-22T04:50:49.576Z",
+    "updatedAt": "2026-04-22T04:50:49.576Z",
+    "farPhotoLocal": "406_far_x_20260422_135049.jpg",
+    "closePhotoLocal": "406_close_x_20260422_135049.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/406_far_x_20260422_135049.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/406_close_x_20260422_135049.jpg"
   }
 }
