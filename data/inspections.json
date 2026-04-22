@@ -2390,5 +2390,28 @@
     "closePhotoLocal": "U30_close_x_20260422_085446.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U30_far_x_20260422_085446.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U30_close_x_20260422_085446.jpg"
+  },
+  "길안427": {
+    "id": "길안427",
+    "address": "길안427",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "작년 산불에 표석 일부분 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4479974,
+    "gpsLng": 128.9898643,
+    "gpsAccuracy": 5,
+    "distFromPoint": 3,
+    "gpsAt": "2026-04-22T01:17:39.050Z",
+    "updatedAt": "2026-04-22T01:17:39.050Z",
+    "farPhotoLocal": "427_far_x_20260422_101739.jpg",
+    "closePhotoLocal": "427_close_x_20260422_101739.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/427_far_x_20260422_101739.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/427_close_x_20260422_101739.jpg"
   }
 }
