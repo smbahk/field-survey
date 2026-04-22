@@ -2528,5 +2528,28 @@
     "closePhotoLocal": "04-04-11-05_close_x_20260422_145616.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-05_far_x_20260422_145616.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-05_close_x_20260422_145616.jpg"
+  },
+  "04-04-11-01": {
+    "id": "04-04-11-01",
+    "address": "04-04-11-01",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "사면 붕괴로 매몰 가능성 있음",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.3614,
+    "gpsLng": 129.0693634,
+    "gpsAccuracy": 60,
+    "distFromPoint": 14,
+    "gpsAt": "2026-04-22T07:28:09.953Z",
+    "updatedAt": "2026-04-22T07:28:09.953Z",
+    "farPhotoLocal": "04-04-11-01_far_x_20260422_162809.jpg",
+    "closePhotoLocal": "04-04-11-01_close_x_20260422_162809.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-01_far_x_20260422_162809.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-01_close_x_20260422_162809.jpg"
   }
 }
