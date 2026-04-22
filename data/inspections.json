@@ -2551,5 +2551,28 @@
     "closePhotoLocal": "04-04-11-01_close_x_20260422_162809.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-01_far_x_20260422_162809.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-11-01_close_x_20260422_162809.jpg"
+  },
+  "04-04-00-00": {
+    "id": "04-04-00-00",
+    "address": "04-04-00-00",
+    "checkDate": "2026-4-22",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "주차장 아스팔트포장 됨",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.344799,
+    "gpsLng": 129.0635317,
+    "gpsAccuracy": 29,
+    "distFromPoint": 21,
+    "gpsAt": "2026-04-22T07:40:53.917Z",
+    "updatedAt": "2026-04-22T07:40:53.917Z",
+    "farPhotoLocal": "04-04-00-00_far_x_20260422_164053.jpg",
+    "closePhotoLocal": "04-04-00-00_close_x_20260422_164053.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-00-00_far_x_20260422_164053.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-04-00-00_close_x_20260422_164053.jpg"
   }
 }
