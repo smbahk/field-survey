@@ -2735,5 +2735,28 @@
     "closePhotoLocal": "432_close_x_20260425_181340.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/432_far_x_20260425_181340.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/432_close_x_20260425_181340.jpg"
+  },
+  "청송307": {
+    "id": "청송307",
+    "address": "청송307",
+    "checkDate": "2026-4-26",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4072997,
+    "gpsLng": 129.1384701,
+    "gpsAccuracy": 4,
+    "distFromPoint": 4,
+    "gpsAt": "2026-04-26T03:04:26.131Z",
+    "updatedAt": "2026-04-26T03:04:26.131Z",
+    "farPhotoLocal": "307_far_x_20260426_120426.jpg",
+    "closePhotoLocal": "307_close_x_20260426_120426.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/307_far_x_20260426_120426.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/307_close_x_20260426_120426.jpg"
   }
 }
