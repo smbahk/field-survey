@@ -3080,5 +3080,28 @@
     "closePhotoLocal": "412_close_x_20260501_150706.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/412_far_x_20260501_150706.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/412_close_x_20260501_150706.jpg"
+  },
+  "청송410": {
+    "id": "청송410",
+    "address": "청송410",
+    "checkDate": "2026-5-2",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "화재로 인해 표석 귀퉁이 및 보호콘크리트 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.4608977,
+    "gpsLng": 129.0890512,
+    "gpsAccuracy": 8,
+    "distFromPoint": 3,
+    "gpsAt": "2026-05-01T23:33:24.672Z",
+    "updatedAt": "2026-05-01T23:33:24.672Z",
+    "farPhotoLocal": "410_far_x_20260502_083324.jpg",
+    "closePhotoLocal": "410_close_x_20260502_083324.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/410_far_x_20260502_083324.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/410_close_x_20260502_083324.jpg"
   }
 }
