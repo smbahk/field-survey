@@ -3057,5 +3057,28 @@
     "closePhotoLocal": "22_close_x_20260501_130635.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/22_far_x_20260501_130635.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/22_close_x_20260501_130635.jpg"
+  },
+  "청송412": {
+    "id": "청송412",
+    "address": "청송412",
+    "checkDate": "2026-5-1",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "화제로 인해 표석 귀퉁이부분 파손됨",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4741039,
+    "gpsLng": 129.1149025,
+    "gpsAccuracy": 10,
+    "distFromPoint": 5,
+    "gpsAt": "2026-05-01T06:07:06.785Z",
+    "updatedAt": "2026-05-01T06:07:06.785Z",
+    "farPhotoLocal": "412_far_x_20260501_150706.jpg",
+    "closePhotoLocal": "412_close_x_20260501_150706.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/412_far_x_20260501_150706.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/412_close_x_20260501_150706.jpg"
   }
 }
