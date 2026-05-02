@@ -3241,5 +3241,28 @@
     "closePhotoLocal": "04-05-00-00_close_x_20260502_171056.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-00-00_far_x_20260502_171056.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-00-00_close_x_20260502_171056.jpg"
+  },
+  "U0595": {
+    "id": "U0595",
+    "address": "U0595",
+    "checkDate": "2026-5-2",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.429729,
+    "gpsLng": 129.0576363,
+    "gpsAccuracy": 4,
+    "distFromPoint": 5,
+    "gpsAt": "2026-05-02T08:51:08.866Z",
+    "updatedAt": "2026-05-02T08:51:08.866Z",
+    "farPhotoLocal": "U0595_far_x_20260502_175108.jpg",
+    "closePhotoLocal": "U0595_close_x_20260502_175108.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0595_far_x_20260502_175108.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0595_close_x_20260502_175108.jpg"
   }
 }
