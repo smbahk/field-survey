@@ -3494,5 +3494,28 @@
     "closePhotoLocal": "403_close_x_20260504_184809.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/403_far_x_20260504_184809.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/403_close_x_20260504_184809.jpg"
+  },
+  "U청송12": {
+    "id": "U청송12",
+    "address": "U청송12",
+    "checkDate": "2026-5-5",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "완전",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4630987,
+    "gpsLng": 129.0375618,
+    "gpsAccuracy": 88,
+    "distFromPoint": 21,
+    "gpsAt": "2026-05-04T23:36:48.257Z",
+    "updatedAt": "2026-05-04T23:36:48.257Z",
+    "farPhotoLocal": "U12_far_x_20260505_083648.jpg",
+    "closePhotoLocal": "U12_close_x_20260505_083648.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U12_far_x_20260505_083648.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U12_close_x_20260505_083648.jpg"
   }
 }
