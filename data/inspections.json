@@ -3471,5 +3471,28 @@
     "closePhotoLocal": "404_close_x_20260504_172316.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/404_far_x_20260504_172316.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/404_close_x_20260504_172316.jpg"
+  },
+  "청송403": {
+    "id": "청송403",
+    "address": "청송403",
+    "checkDate": "2026-5-4",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4501584,
+    "gpsLng": 129.0186372,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-05-04T09:48:09.575Z",
+    "updatedAt": "2026-05-04T09:48:09.575Z",
+    "farPhotoLocal": "403_far_x_20260504_184809.jpg",
+    "closePhotoLocal": "403_close_x_20260504_184809.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/403_far_x_20260504_184809.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/403_close_x_20260504_184809.jpg"
   }
 }
