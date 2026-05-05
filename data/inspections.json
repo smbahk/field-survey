@@ -3563,5 +3563,28 @@
     "closePhotoLocal": "21_close_x_20260505_110935.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/21_far_x_20260505_110935.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/21_close_x_20260505_110935.jpg"
+  },
+  "청송407": {
+    "id": "청송407",
+    "address": "청송407",
+    "checkDate": "2026-5-5",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "표석 화재로 모퉁이 부분 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.4900135,
+    "gpsLng": 129.0454835,
+    "gpsAccuracy": 70,
+    "distFromPoint": 5,
+    "gpsAt": "2026-05-05T04:31:17.577Z",
+    "updatedAt": "2026-05-05T04:31:17.577Z",
+    "farPhotoLocal": "407_far_x_20260505_133117.jpg",
+    "closePhotoLocal": "407_close_x_20260505_133117.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/407_far_x_20260505_133117.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/407_close_x_20260505_133117.jpg"
   }
 }
