@@ -3655,5 +3655,28 @@
     "closePhotoLocal": "04-05-13-04_close_x_20260505_154522.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-13-04_far_x_20260505_154522.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-05-13-04_close_x_20260505_154522.jpg"
+  },
+  "영양450": {
+    "id": "영양450",
+    "address": "영양450",
+    "checkDate": "2026-5-5",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.5083216,
+    "gpsLng": 129.021192,
+    "gpsAccuracy": 25,
+    "distFromPoint": 3,
+    "gpsAt": "2026-05-05T07:26:16.342Z",
+    "updatedAt": "2026-05-05T07:26:16.342Z",
+    "farPhotoLocal": "450_far_x_20260505_162616.jpg",
+    "closePhotoLocal": "450_close_x_20260505_162616.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/450_far_x_20260505_162616.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/450_close_x_20260505_162616.jpg"
   }
 }
