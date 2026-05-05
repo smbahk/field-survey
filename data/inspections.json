@@ -3701,5 +3701,28 @@
     "closePhotoLocal": "451_close_x_20260505_170230.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/451_far_x_20260505_170230.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/451_close_x_20260505_170230.jpg"
+  },
+  "예안471": {
+    "id": "예안471",
+    "address": "예안471",
+    "checkDate": "2026-5-5",
+    "inspector": "이춘식",
+    "checkStatus": "완전",
+    "checkResult": "",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.5384578,
+    "gpsLng": 128.9776842,
+    "gpsAccuracy": 4,
+    "distFromPoint": 3,
+    "gpsAt": "2026-05-05T08:47:54.707Z",
+    "updatedAt": "2026-05-05T08:47:54.707Z",
+    "farPhotoLocal": "471_far_x_20260505_174754.jpg",
+    "closePhotoLocal": "471_close_x_20260505_174754.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/471_far_x_20260505_174754.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/471_close_x_20260505_174754.jpg"
   }
 }
