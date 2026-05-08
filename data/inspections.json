@@ -3724,5 +3724,28 @@
     "closePhotoLocal": "471_close_x_20260505_174754.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/471_far_x_20260505_174754.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/471_close_x_20260505_174754.jpg"
+  },
+  "영양25": {
+    "id": "영양25",
+    "address": "영양25",
+    "checkDate": "2026-5-9",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호 콘크리트 멸실",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.5143839,
+    "gpsLng": 129.0667093,
+    "gpsAccuracy": 71,
+    "distFromPoint": 4,
+    "gpsAt": "2026-05-08T22:49:15.529Z",
+    "updatedAt": "2026-05-08T22:49:15.529Z",
+    "farPhotoLocal": "25_far_x_20260509_074915.jpg",
+    "closePhotoLocal": "25_close_x_20260509_074915.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/25_far_x_20260509_074915.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/25_close_x_20260509_074915.jpg"
   }
 }
