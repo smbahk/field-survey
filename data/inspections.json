@@ -3885,5 +3885,28 @@
     "closePhotoLocal": "04-07-00-00_close_x_20260509_143739.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-07-00-00_far_x_20260509_143739.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-07-00-00_close_x_20260509_143739.jpg"
+  },
+  "영양457": {
+    "id": "영양457",
+    "address": "영양457",
+    "checkDate": "2026-5-9",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호 콘크리트 멸실",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "멸실"
+    },
+    "gpsLat": 36.5283809,
+    "gpsLng": 129.088606,
+    "gpsAccuracy": 6,
+    "distFromPoint": 10,
+    "gpsAt": "2026-05-09T06:06:15.098Z",
+    "updatedAt": "2026-05-09T06:06:15.098Z",
+    "farPhotoLocal": "457_far_x_20260509_150615.jpg",
+    "closePhotoLocal": "457_close_x_20260509_150615.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/457_far_x_20260509_150615.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/457_close_x_20260509_150615.jpg"
   }
 }
