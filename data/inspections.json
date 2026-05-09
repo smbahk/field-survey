@@ -3954,5 +3954,28 @@
     "closePhotoLocal": "04-07-16-01_close_x_20260509_165042.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-07-16-01_far_x_20260509_165042.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/04-07-16-01_close_x_20260509_165042.jpg"
+  },
+  "영양461": {
+    "id": "영양461",
+    "address": "영양461",
+    "checkDate": "2026-5-9",
+    "inspector": "이춘식",
+    "checkStatus": "파손",
+    "checkResult": "보호 콘크리트 파손",
+    "surveyItems": {
+      "표석": "완전",
+      "보호석": "없음",
+      "보호콘크리트": "파손"
+    },
+    "gpsLat": 36.5040997,
+    "gpsLng": 129.1262982,
+    "gpsAccuracy": 6,
+    "distFromPoint": 3,
+    "gpsAt": "2026-05-09T08:42:29.991Z",
+    "updatedAt": "2026-05-09T08:42:29.991Z",
+    "farPhotoLocal": "461_far_x_20260509_174229.jpg",
+    "closePhotoLocal": "461_close_x_20260509_174229.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_far_x_20260509_174229.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/461_close_x_20260509_174229.jpg"
   }
 }
