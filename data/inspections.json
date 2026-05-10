@@ -4023,5 +4023,28 @@
     "closePhotoLocal": "U0522_close_x_20260510_094032.jpg",
     "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0522_far_x_20260510_094032.jpg",
     "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/U0522_close_x_20260510_094032.jpg"
+  },
+  "영양458": {
+    "id": "영양458",
+    "address": "영양458",
+    "checkDate": "2026-5-10",
+    "inspector": "이춘식",
+    "checkStatus": "불량",
+    "checkResult": "표석 기울어짐",
+    "surveyItems": {
+      "표석": "불량",
+      "보호석": "없음",
+      "보호콘크리트": "완전"
+    },
+    "gpsLat": 36.505056,
+    "gpsLng": 129.0958749,
+    "gpsAccuracy": 4,
+    "distFromPoint": 2,
+    "gpsAt": "2026-05-10T01:27:03.778Z",
+    "updatedAt": "2026-05-10T01:27:03.778Z",
+    "farPhotoLocal": "458_far_x_20260510_102703.jpg",
+    "closePhotoLocal": "458_close_x_20260510_102703.jpg",
+    "farPhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/458_far_x_20260510_102703.jpg",
+    "closePhotoUrl": "https://raw.githubusercontent.com/smbahk/field-survey/main/photos/458_close_x_20260510_102703.jpg"
   }
 }
