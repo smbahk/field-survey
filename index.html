@@ -286,6 +286,8 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
   <div id="mapContent">
     <div id="kakaoMap"></div>
 
+    <!-- ★ 타지역 추가 시 이 부분 수정 ★ -->
+    <!-- stat-region 텍스트를 해당 지역명으로 변경, sCS/sCT/sCU/sCDone/sCTot ID도 지역에 맞게 변경 -->
     <div class="stats-bar">
       <div class="stat-row">
         <span class="stat-region">청송</span>
@@ -647,7 +649,10 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);background:#f0f2f5
    CONFIG
    ============================================================ */
 const Cfg = {
-  K: 'fsurvey_cfg',
+  // ★ 타지역 추가 시 이 부분 수정 ★
+  // K: localStorage/IndexedDB 키 접미사 — 지역별로 고유하게 설정 (예: 'fsurvey_cfg_gc' for 김천)
+  // def.repo: 해당 지역의 GitHub 레포 이름으로 변경
+  K: 'fsurvey_cfg_cs',
   def: { kakaoKey:'3c55a8281f53c899abbbbe6960e519bf', token:'', owner:'smbahk', repo:'field-survey', branch:'main', inspector:'' },
   get() { try { return {...this.def,...JSON.parse(localStorage.getItem(this.K)||'{}')}; } catch { return {...this.def}; } },
   validToken(token) {
@@ -732,22 +737,25 @@ const GH = {
   },
   async loadInsp() {
     const c=Cfg.get();
-    if (!c.owner||!c.repo) { App.insp=JSON.parse(localStorage.getItem('fsurvey_i')||'{}'); return; }
+    // ★ 타지역 추가 시 이 부분 수정 ★
+    // 'fsurvey_i_cs' → 지역별 고유 키로 변경 (예: 'fsurvey_i_gc' for 김천)
+    // 다른 지역 파일과 localStorage가 충돌하지 않도록 반드시 고유 접미사 사용
+    if (!c.owner||!c.repo) { App.insp=JSON.parse(localStorage.getItem('fsurvey_i_cs')||'{}'); return; }
     const f = await this.getFile('data/inspections.json');
     if (f) {
       try {
         const remote=JSON.parse(f.content);
-        const local=JSON.parse(localStorage.getItem('fsurvey_i')||'{}');
+        const local=JSON.parse(localStorage.getItem('fsurvey_i_cs')||'{}');
         App.insp={...remote,...local}; App.inspSha=f.sha;
-      } catch { App.insp=JSON.parse(localStorage.getItem('fsurvey_i')||'{}'); }
+      } catch { App.insp=JSON.parse(localStorage.getItem('fsurvey_i_cs')||'{}'); }
     } else {
-      App.insp=JSON.parse(localStorage.getItem('fsurvey_i')||'{}');
+      App.insp=JSON.parse(localStorage.getItem('fsurvey_i_cs')||'{}');
     }
     MC.redraw();
   },
   async saveInsp(insp) {
     App.insp[insp.id]=insp;
-    localStorage.setItem('fsurvey_i',JSON.stringify(App.insp));
+    localStorage.setItem('fsurvey_i_cs',JSON.stringify(App.insp));
     const c=Cfg.get();
     if (!c.token||!c.owner||!c.repo) return true;
     // 재시도 최대 3회 (다중 사용자 SHA 충돌 대응)
@@ -840,7 +848,7 @@ const Queue = {
           if (App.insp[item.facId]) {
             if (item.typeLabel === '원거리') App.insp[item.facId].farPhotoUrl = url;
             if (item.typeLabel === '근거리') App.insp[item.facId].closePhotoUrl = url;
-            localStorage.setItem('fsurvey_i', JSON.stringify(App.insp));
+            localStorage.setItem('fsurvey_i_cs', JSON.stringify(App.insp));
           }
           await IDB.queueRemove(item.qid);
           successCount++;
@@ -858,7 +866,7 @@ const Queue = {
         } else {
           App.inspSha = null; // 파일 없음 → 신규 생성
         }
-        localStorage.setItem('fsurvey_i', JSON.stringify(App.insp));
+        localStorage.setItem('fsurvey_i_cs', JSON.stringify(App.insp));
         const latestInsp = App.insp[item.facId] || item.inspData;
         if (!latestInsp) { await IDB.queueRemove(item.qid); continue; }
         const ok = await GH.saveInsp(latestInsp);
@@ -881,6 +889,8 @@ const Queue = {
 /* ============================================================
    DEMO DATA (시설 목록 - data/facilities.json으로 교체)
    ============================================================ */
+// ★ 타지역 추가 시 이 부분 수정 ★
+// GitHub 연결 전 테스트용 샘플 데이터 — 해당 지역 기준점으로 교체
 const DEMO = [
   {id:'04-02-05-03',type:'수준점',region:'청송',lat:36.2245833333,lng:128.8996666667,installStatus:'정상'},
   {id:'청송301',type:'삼각점',region:'청송',lat:36.2191709167,lng:128.9851905278,installStatus:'정상'},
@@ -895,6 +905,8 @@ let kakaoMap, mkrs={}, overlayType=null, myMk=null;
 const MC = {
   init() {
     kakaoMap = new kakao.maps.Map(g('kakaoMap'),{
+      // ★ 타지역 추가 시 이 부분 수정 ★
+      // center: 해당 지역 중심 위경도로 변경
       center: new kakao.maps.LatLng(36.436232, 129.057067), level:10
     });
     kakaoMap.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
@@ -939,6 +951,8 @@ const MC = {
   },
   redraw() {
     Object.values(mkrs).forEach(m=>m.setMap(null)); mkrs={};
+    // ★ 타지역 추가 시 이 부분 수정 ★
+    // cnt 객체의 키(지역명)를 해당 지역으로 변경
     const cnt  = {청송:{수준점:0,삼각점:0,통합기준점:0,tot:0,done:0}};
     App.facs.forEach(fac=>{
       const checked = !!(App.insp[fac.id]?.checkStatus);
@@ -1033,7 +1047,9 @@ const IDB = {
   async open() {
     if (this.db) return this.db;
     return new Promise((res, rej) => {
-      const req = indexedDB.open('fsurvey_photos', 2);  // 버전 2: queue 스토어 추가
+      // ★ 타지역 추가 시 이 부분 수정 ★
+      // 'fsurvey_photos_cs' → 지역별 고유 이름으로 변경 (예: 'fsurvey_photos_gc' for 김천)
+      const req = indexedDB.open('fsurvey_photos_cs', 2);  // 버전 2: queue 스토어 추가
       req.onupgradeneeded = e => {
         const db = e.target.result;
         if (!db.objectStoreNames.contains('photos'))
@@ -1060,7 +1076,7 @@ const IDB = {
       console.warn('IDB 저장 실패, localStorage 백업 시도:', e.message);
       try {
         const thumb = await this._thumb(b64, 400);
-        const key = 'fsurvey_ph_' + name;
+        const key = 'fsurvey_ph_cs_' + name;
         localStorage.setItem(key, thumb);
         return {ok:true, storage:'ls', key};
       } catch(e2) {
@@ -1079,7 +1095,7 @@ const IDB = {
       });
       if (result) return result;
     } catch(e) {}
-    return localStorage.getItem('fsurvey_ph_' + name) || null;
+    return localStorage.getItem('fsurvey_ph_cs_' + name) || null;
   },
   // 업로드 대기열 추가
   async queueAdd(item) {
@@ -1268,7 +1284,7 @@ const FM = {
 
       // 2단계: 점검 데이터 로컬 저장
       App.insp[fac.id]=insp;
-      localStorage.setItem('fsurvey_i',JSON.stringify(App.insp));
+      localStorage.setItem('fsurvey_i_cs',JSON.stringify(App.insp));
 
       // 3단계: 온라인 여부 확인 후 GitHub 업로드
       const isOnline = navigator.onLine;
@@ -1278,7 +1294,7 @@ const FM = {
         if (latest) {
           try { const r=JSON.parse(latest.content); App.insp={...r,...App.insp}; } catch {}
           App.inspSha = latest.sha;
-          localStorage.setItem('fsurvey_i', JSON.stringify(App.insp));
+          localStorage.setItem('fsurvey_i_cs', JSON.stringify(App.insp));
         } else {
           App.inspSha = null;
         }
@@ -1527,7 +1543,7 @@ function loadKakao(key) {
 /* ============================================================
    VERSION
    ============================================================ */
-const APP_VERSION = 'v1.2.5';
+const APP_VERSION = 'v1.2.6';
 
 async function checkVersion() {
   try {
